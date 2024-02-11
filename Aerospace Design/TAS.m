@@ -1,0 +1,2 @@
+function V = TAS(m,g,p,S,CL) %function that outputs true air speed in meters per second, V, with inputs of aircraft mass in kilograms, acceleration due to gravity in meters per second squared, air density in kilograms per meter cubed, wing surface area in meters squared, and coefficient of lift
+V = sqrt((2.*m.*g)./(p.*S.*CL)) %equation of true air speed
